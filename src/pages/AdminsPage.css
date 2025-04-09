@@ -1,0 +1,93 @@
+.admins-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #292929; /* Тёмный фон */
+    color: white;
+  }
+  
+  .header {
+    background-color: #1c1c1c; /* Чёрный фон */
+    padding: 20px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #ff4500;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .admins-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    gap: 20px;
+  }
+  
+  .admin-card {
+    background-color: #1c1c1c;
+    border: 2px solid #ff4500;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+  
+  .admin-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .admin-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff4500;
+    margin-bottom: 10px;
+  }
+  
+  .telegram-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #1c1c1c;
+    border: 2px solid #ff4500;
+    border-radius: 8px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    text-decoration: none;
+    box-shadow: 0 6px 10px rgba(255, 69, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .telegram-button:hover {
+    background-color: #2f2f2f;
+    border-color: #e63946;
+    box-shadow: 0 8px 15px rgba(255, 69, 0, 0.7);
+    transform: translateY(-3px);
+  }
+  
+  .telegram-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .footer {
+    background-color: #0f0f0f; /* Самый тёмный оттенок */
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #ff4500;
+  }
+  

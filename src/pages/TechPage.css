@@ -1,0 +1,111 @@
+.tech-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #292929; /* Тёмный фон */
+    color: white;
+  }
+  
+  .header {
+    background-color: #1c1c1c; /* Чёрный фон */
+    padding: 20px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #ff4500;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .tech-info {
+    margin-bottom: 20px;
+  }
+  
+  .prohibited {
+    color: #e63946; /* Красный акцент для запрещённого */
+    font-weight: bold;
+  }
+  
+  .allowed {
+    color: #17a2b8; /* Синий акцент для разрешённого */
+    font-weight: bold;
+  }
+  
+  .prohibited-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .prohibited-list li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-left: 4px solid #e63946;
+    background-color: #1c1c1c;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .transport-rules h3 {
+    margin-top: 20px;
+    color: #ff4500;
+  }
+  
+  .transport-rules ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .transport-rules li {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-left: 4px solid #ff4500;
+    background-color: #1c1c1c;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .notice {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #e63946;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .menu-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    background-color: #1c1c1c;
+    border: 2px solid #ff4500;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    box-shadow: 0 6px 10px rgba(255, 69, 0, 0.5);
+    text-decoration: none;
+  }
+  
+  .menu-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(255, 69, 0, 0.7);
+    background-color: #2f2f2f;
+    border-color: #e63946;
+  }
+  
+  .footer {
+    background-color: #0f0f0f; /* Самый тёмный оттенок */
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #ff4500;
+  }
+  

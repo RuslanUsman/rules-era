@@ -1,0 +1,86 @@
+.header {
+    background-color: #1c1c1c;
+    padding: 25px;
+    color: #ff6347;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .main-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 160px);
+    padding: 20px;
+    background: linear-gradient(-45deg, #1a1a1a, #2f4f4f, #1c1c1c, #2d3436);
+    background-size: 400% 400%;
+    animation: gradientAnimation 8s ease infinite;
+    color: white;
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  
+  
+  .menu-button {
+    margin: 12px;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    background-color: #1c1c1c; /* Глубокий чёрный фон */
+    border: 2px solid #ff4500; /* Красный контур */
+    border-radius: 8px; /* Легкие закругления для брутальности */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    box-shadow: 0 6px 10px rgba(255, 69, 0, 0.5); /* Чёткая тень */
+  }
+  
+  /* Эффекты при наведении */
+  .menu-button:hover {
+    transform: translateY(-3px); /* Поднятие при наведении */
+    box-shadow: 0 8px 15px rgba(255, 69, 0, 0.7); /* Углубляем тень */
+    background-color: #2f2f2f; /* Стальной серый фон */
+    border-color: #e63946; /* Более яркий красный контур */
+  }
+  
+  /* Активная кнопка */
+  .active {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(255, 69, 0, 0.9); /* Глубокая тень */
+    background-color: #292929; /* Углубляем чёрный тон */
+    color: #ff4500; /* Яркий красный текст */
+    border-color: #ff4500; /* Яркий контур */
+  }
+  
+  
+  
+  .footer {
+    background-color: #0f0f0f;
+    padding: 20px;
+    color: #ff6347;
+    text-align: center;
+  }
+  
+  .main-page {
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
