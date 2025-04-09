@@ -11,7 +11,7 @@ import AdminsPage from './pages/AdminsPage';
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL || ''}>
       <Routes>
         {/* Главное меню */}
         <Route path="/" element={<MainMenu />} />

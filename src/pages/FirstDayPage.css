@@ -80,3 +80,53 @@
   font-size: 14px;
   color: #ff4500;
 }
+
+
+
+
+
+@media (max-width: 768px) {
+  .first-day-rules-list li {
+    padding: 8px; /* Компактные отступы для правил */
+    font-size: 14px; /* Уменьшение размера текста */
+  }
+
+  .header {
+    font-size: 28px; /* Адаптация заголовка для планшетов */
+  }
+
+  .menu-button {
+    padding: 10px 20px;
+    font-size: 16px; /* Оптимизация размера кнопок */
+  }
+}
+
+@media (max-width: 480px) {
+  .first-day-rules-list {
+    margin: 5px 0;
+  }
+
+  .first-day-rules-list li {
+    font-size: 12px; /* Компактный текст для правил */
+    margin-bottom: 8px;
+  }
+
+  .header {
+    font-size: 24px;
+    padding: 5px; /* Уменьшение для маленьких экранов */
+  }
+
+  .notice {
+    font-size: 14px; /* Размер текста уведомлений */
+  }
+
+  .menu-button {
+    font-size: 14px;
+    padding: 8px 15px; /* Компактность кнопок */
+  }
+
+  .footer {
+    font-size: 12px;
+    padding: 5px; /* Компактный футер */
+  }
+}

@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './AdminsPage.css';
+import '../style.css';
+
 
 const AdminsPage = () => {
   return (

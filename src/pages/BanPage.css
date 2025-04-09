@@ -91,3 +91,60 @@
     color: #ff4500;
   }
   
+
+
+
+
+
+
+
+  @media (max-width: 768px) {
+    .ban-page {
+      padding: 10px;
+    }
+  
+    .ban-rules-list li {
+      padding: 8px; /* Уменьшаем внутренние отступы для компактности */
+      font-size: 14px; /* Уменьшаем размер шрифта */
+    }
+  
+    .header {
+      font-size: 28px; /* Уменьшаем размер заголовка для планшетов */
+    }
+  
+    .menu-button {
+      padding: 10px 20px; /* Уменьшаем размер кнопок */
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .ban-rules-list {
+      margin: 10px 0;
+    }
+  
+    .ban-rules-list li {
+      margin-bottom: 10px;
+      font-size: 12px; /* Делаем текст ещё компактнее */
+    }
+  
+    .header {
+      font-size: 24px; /* Оптимизация заголовка для маленьких экранов */
+      padding: 5px;
+    }
+  
+    .notice {
+      font-size: 14px; /* Уменьшаем размер текста уведомления */
+    }
+  
+    .menu-button {
+      font-size: 14px; /* Уменьшаем размер шрифта кнопок */
+      padding: 8px 15px;
+    }
+  
+    .footer {
+      font-size: 12px; /* Уменьшаем шрифт футера */
+      padding: 5px;
+    }
+  }
+  

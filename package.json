@@ -1,6 +1,9 @@
 {
   "name": "rules-era",
-  "homepage": "https://ruslanusman.github.io/last-island-rules",
+  "homepage": "https://ruslanusman.github.io/new-rules-era",
+ 
+
+
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -2,12 +2,12 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: #292929; /* Тёмный фон */
+    background-color: #292929; 
     color: white;
   }
   
   .header {
-    background-color: #1c1c1c; /* Чёрный фон */
+    background-color: #1c1c1c; 
     padding: 20px;
     text-align: center;
     font-size: 36px;
@@ -79,10 +79,61 @@
   }
   
   .footer {
-    background-color: #0f0f0f; /* Самый тёмный оттенок */
+    background-color: #0f0f0f; 
     padding: 10px;
     text-align: center;
     font-size: 14px;
     color: #ff4500;
+  }
+  
+
+
+
+
+
+  @media (max-width: 768px) {
+    .rules-list li {
+      padding: 8px; /* Уменьшаем отступы */
+      font-size: 14px; /* Уменьшаем текст для планшетов */
+    }
+  
+    .header {
+      font-size: 28px; /* Оптимизация заголовка */
+    }
+  
+    .menu-button {
+      padding: 10px 20px;
+      font-size: 16px; /* Компактные кнопки для планшетов */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .rules-list {
+      margin: 5px 0;
+    }
+  
+    .rules-list li {
+      font-size: 12px; /* Уменьшаем размер текста для мобильных */
+      margin-bottom: 8px;
+    }
+  
+    .header {
+      font-size: 24px;
+      padding: 5px; /* Заголовок на маленьких экранах */
+    }
+  
+    .notice {
+      font-size: 14px; /* Компактное уведомление */
+    }
+  
+    .menu-button {
+      font-size: 14px;
+      padding: 8px 15px; /* Минимальные размеры кнопок */
+    }
+  
+    .footer {
+      font-size: 12px;
+      padding: 5px; /* Компактный футер */
+    }
   }
   

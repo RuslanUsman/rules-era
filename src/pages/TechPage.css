@@ -109,3 +109,51 @@
     color: #ff4500;
   }
   
+
+
+  @media (max-width: 768px) {
+    .prohibited-list li, .transport-rules li {
+      padding: 8px; /* Уменьшаем отступы */
+      font-size: 14px; /* Оптимизация текста для планшетов */
+    }
+  
+    .header {
+      font-size: 28px; /* Уменьшаем заголовок для средних экранов */
+    }
+  
+    .menu-button {
+      padding: 10px 20px; /* Делаем кнопки компактными */
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .prohibited-list, .transport-rules ul {
+      margin: 5px 0;
+    }
+  
+    .prohibited-list li, .transport-rules li {
+      font-size: 12px; /* Компактный текст для мобильных */
+      margin-bottom: 8px;
+    }
+  
+    .header {
+      font-size: 24px;
+      padding: 5px; /* Адаптация заголовка */
+    }
+  
+    .notice {
+      font-size: 14px; /* Размер текста уведомления */
+    }
+  
+    .menu-button {
+      font-size: 14px;
+      padding: 8px 15px; /* Уменьшаем размеры кнопок */
+    }
+  
+    .footer {
+      font-size: 12px; /* Компактный футер */
+      padding: 5px;
+    }
+  }
+  

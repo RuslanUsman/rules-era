@@ -86,3 +86,52 @@
     color: #ff4500;
   }
   
+
+
+
+  @media (max-width: 768px) {
+    .warning-rules-list li {
+      padding: 8px; /* Компактность для планшетов */
+      font-size: 14px; /* Уменьшаем размер текста */
+    }
+  
+    .header {
+      font-size: 28px; /* Оптимизация заголовка для планшетов */
+    }
+  
+    .menu-button {
+      padding: 10px 20px; /* Компактные кнопки для планшетов */
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .warning-rules-list {
+      margin: 5px 0;
+    }
+  
+    .warning-rules-list li {
+      font-size: 12px; /* Ещё компактнее для мобильных устройств */
+      margin-bottom: 8px;
+    }
+  
+    .header {
+      font-size: 24px;
+      padding: 5px; /* Адаптируем заголовок для маленьких экранов */
+    }
+  
+    .notice {
+      font-size: 14px; /* Компактное уведомление */
+    }
+  
+    .menu-button {
+      font-size: 14px;
+      padding: 8px 15px; /* Уменьшаем размеры кнопок */
+    }
+  
+    .footer {
+      font-size: 12px; /* Уменьшаем размер шрифта футера */
+      padding: 5px;
+    }
+  }
+  

@@ -91,3 +91,43 @@
     color: #ff4500;
   }
   
+
+
+
+  @media (max-width: 768px) {
+    .admins-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .admin-card {
+      width: 80%; /* Увеличиваем ширину карточек для маленьких экранов */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .header {
+      font-size: 28px; /* Уменьшаем размер текста заголовка */
+      padding: 10px;
+    }
+  
+    .admin-name {
+      font-size: 16px; /* Уменьшаем размер имени администратора */
+    }
+  
+    .telegram-button {
+      font-size: 14px; /* Уменьшаем размер кнопки */
+      padding: 8px 12px;
+    }
+  
+    .telegram-icon {
+      width: 16px;
+      height: 16px; /* Уменьшаем размеры иконки Telegram */
+    }
+  
+    .footer {
+      font-size: 12px; /* Уменьшаем шрифт в футере */
+      padding: 5px;
+    }
+  }
+  
