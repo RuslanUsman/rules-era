@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/new-rules-era/static/css/main.174510c5.css",
-    "main.js": "/new-rules-era/static/js/main.03d7511c.js",
-    "static/js/488.1bc187b3.chunk.js": "/new-rules-era/static/js/488.1bc187b3.chunk.js",
-    "index.html": "/new-rules-era/index.html",
-    "main.174510c5.css.map": "/new-rules-era/static/css/main.174510c5.css.map",
-    "main.03d7511c.js.map": "/new-rules-era/static/js/main.03d7511c.js.map",
-    "488.1bc187b3.chunk.js.map": "/new-rules-era/static/js/488.1bc187b3.chunk.js.map"
+    "main.css": "/last-island-rules/static/css/main.174510c5.css",
+    "main.js": "/last-island-rules/static/js/main.33edf856.js",
+    "static/js/488.1bc187b3.chunk.js": "/last-island-rules/static/js/488.1bc187b3.chunk.js",
+    "index.html": "/last-island-rules/index.html",
+    "main.174510c5.css.map": "/last-island-rules/static/css/main.174510c5.css.map",
+    "main.33edf856.js.map": "/last-island-rules/static/js/main.33edf856.js.map",
+    "488.1bc187b3.chunk.js.map": "/last-island-rules/static/js/488.1bc187b3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.174510c5.css",
-    "static/js/main.03d7511c.js"
+    "static/js/main.33edf856.js"
   ]
 }
