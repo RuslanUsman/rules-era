@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/new-rules-era/static/css/main.08ef8e53.css",
+    "main.js": "/new-rules-era/static/js/main.b2cf460e.js",
+    "static/js/488.1bc187b3.chunk.js": "/new-rules-era/static/js/488.1bc187b3.chunk.js",
+    "index.html": "/new-rules-era/index.html",
+    "main.08ef8e53.css.map": "/new-rules-era/static/css/main.08ef8e53.css.map",
+    "main.b2cf460e.js.map": "/new-rules-era/static/js/main.b2cf460e.js.map",
+    "488.1bc187b3.chunk.js.map": "/new-rules-era/static/js/488.1bc187b3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.08ef8e53.css",
+    "static/js/main.b2cf460e.js"
+  ]
+}
