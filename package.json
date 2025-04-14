@@ -1,9 +1,6 @@
 {
   "name": "rules-era",
   "homepage": "https://ruslanusman.github.io/rules-era",
- 
-
-
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -42,5 +39,17 @@
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RuslanUsman/rules-era.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RuslanUsman/rules-era/issues"
+  },
+  "description": ""
 }
