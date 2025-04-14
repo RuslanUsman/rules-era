@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/rules-era/static/css/main.174510c5.css",
-    "main.js": "/rules-era/static/js/main.59643df2.js",
+    "main.js": "/rules-era/static/js/main.2de284c1.js",
     "static/js/488.1bc187b3.chunk.js": "/rules-era/static/js/488.1bc187b3.chunk.js",
     "index.html": "/rules-era/index.html",
     "main.174510c5.css.map": "/rules-era/static/css/main.174510c5.css.map",
-    "main.59643df2.js.map": "/rules-era/static/js/main.59643df2.js.map",
+    "main.2de284c1.js.map": "/rules-era/static/js/main.2de284c1.js.map",
     "488.1bc187b3.chunk.js.map": "/rules-era/static/js/488.1bc187b3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.174510c5.css",
-    "static/js/main.59643df2.js"
+    "static/js/main.2de284c1.js"
   ]
 }
